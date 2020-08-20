@@ -1,0 +1,86 @@
+{% extends 'job/base.html' %}
+{% load static %}
+{% block body %}
+	<!-- banner -->
+	<div class="inner_page_agile">
+		<h3>Contact</h3>
+		<p>If You Have Any Problem Contact Us</p>
+
+	</div>
+	<!--//banner -->
+	<!--/w3_short-->
+	<div class="services-breadcrumb_w3layouts">
+		<div class="inner_breadcrumb">
+
+			<ul class="short_w3ls"_w3ls>
+				<li><a href="{% url 'index' %}">Home</a><span>|</span></li>
+                <li><a href="{% url 'UPDATE LATEST NEWS' %}" >Find A NEWS </a><span>|</span></li>
+                <li><a href="{% url 'post LATEST NEWS' %}" >Post A NEWS </a><span>|</span></li>
+				<li><a href="{% url 'reg' %}" >Ragistration </a><span>|</span></li>
+				<li><a href="{% url 'login' %}" >Login </a><span>|</span></li>
+				<li>Contact</li>
+			</ul>
+		</div>
+	</div>
+	<!--//w3_short-->
+	<!-- /inner_content -->
+	<div class="inner_content_info_NEWS">
+		<div class="container">
+			<div class="tittle_head_w3ls">
+				<h3 class="tittle">Contact Us</h3>
+			</div>
+			<div class="inner_sec_grids_info_w3ls">
+				<div class="col-md-4 NEWS_info_mail_img_info">
+					<div class="address-grid">
+						<h4>Contact <span>Info</span></h4>
+						<div class="mail-newsits-w3layouts">
+							<i class="fa fa-volume-control-phone" aria-hidden="true"></i>
+							<div class="contact-right">
+								<p>Contact Number </p><span>+91-8375092409</span>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+						<div class="mail-newsits-w3layouts">
+							<i class="fa fa-envelope-o" aria-hidden="true"></i>
+							<div class="contact-right">
+								<p>Mail </p><a href="mailto:info@example.com">RAKESHGROVER1996@GMAIL.COM</a>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+						<div class="mail-newsits-w3layouts">
+							<i class="fa fa-map-marker" aria-hidden="true"></i>
+							<div class="contact-right">
+								<p>Location</p><span>B-4 YAMUNA VIHAR,</span><span> DELHI 110053</span> <span>INDIA</span>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+						<div class="newsits_w3layouts_nav_right contact">
+							<div class="social two">
+								<ul>
+									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+									<li><a href="#"><i class="fa fa-rss"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-8">
+                <img src="{% static 'images/w1.jpg' %}" alt=" " class="img-responsive" />
+				</div>
+						<div class="clearfix"> </div>
+
+
+				</div>
+
+
+			</div>
+
+		</div>
+	</div>
+	<!-- //mid-services -->
+	<!-- /map -->
+	<div class="map">
+		<iframe src="https://www.google.com/maps/" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+	</div>
+{% endblock %}
